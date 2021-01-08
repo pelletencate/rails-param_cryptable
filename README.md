@@ -52,6 +52,13 @@ module OrdersHelper
 end
 ```
 
+## Possible future features
+
+- SPECS!!!
+- Salting / padding, to decrease the chance of "guessability"
+- Initializion script that adds a key to the credentials
+- Integration with ActiveRecord and/or URL helpers so you don't have to call `encrypt`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

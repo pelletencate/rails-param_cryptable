@@ -1,0 +1,1 @@
+require 'param_cryptable'
