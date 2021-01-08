@@ -8,15 +8,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Encrypted URL parameters for Rails}
   spec.description   = %q{Simple encryption for URL parameters in rails, meant as a drop-in obfuscation layer for IDs}
-  spec.homepage      = "https://pelle.codes"
+  spec.homepage      = "https://github.com/pelletencate/rails-param_cryptable"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/pelletencate/rails-param_cryptable"
-  spec.metadata["changelog_uri"] = "https://github.com/pelletencate/rails-param_cryptable/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "https://github.com/pelletencate/rails-param_cryptable/blob/main/CHANGELOG.md"
 
   spec.add_dependency 'rails', '>= 5.2.0'
 
